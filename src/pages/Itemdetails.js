@@ -10,7 +10,7 @@ const Itemdetails = () => {
         {post && 
         <div className=' d-flex '>
           <div className='oneproductimg'>
-          <img className="card-img-top" alt='' src={post.image} />
+          <img src={post.image} className="card-img-top" alt=''  />
           </div>
             <div className='discription card-body'>
                 <p ><b>{post.name}</b></p>
